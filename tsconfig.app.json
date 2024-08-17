@@ -23,7 +23,11 @@
     "noFallthroughCasesInSwitch": true,
 
     /* Absolute path */
-    "baseUrl": "src"
+    "baseUrl": "./",
+    "paths": {
+      "components/*": ["src/common/components/*"],
+      "types/*": ["src/common/types/*"]
+    }
   },
   "include": ["src"]
 }
