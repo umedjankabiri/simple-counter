@@ -2,6 +2,7 @@ import {ReactNode} from "react";
 
 export type ButtonProps = {
     className?: string;
-    children?: ReactNode;
+    children: ReactNode;
+    disabled?: boolean;
     onClick?: ()=> void
 }
