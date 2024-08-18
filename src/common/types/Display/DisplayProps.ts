@@ -1,3 +1,4 @@
 export type DisplayProps = {
-    display: string
+    className?: string;
+    show: number
 }
