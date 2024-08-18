@@ -1,9 +1,10 @@
-import 'common/components/App/App.css'
+import 'components/App/App.css'
+import {Counter} from "components/Counter/Counter.tsx";
 
 function App() {
   return (
-    <div>
-      <h1>Counter</h1>
+    <div className="App">
+        <Counter/>
     </div>
   )
 }
